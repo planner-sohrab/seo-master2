@@ -140,3 +140,43 @@ img[alt="brand-logo"] {
 .banner-container div:last-child {
   width: 55%;
 }
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  .container {
+    padding-inline: 4rem;
+  }
+
+  .navbar-container .grow-list {
+    display: none;
+  }
+
+  .banner-container {
+    margin-top: 4rem;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 4rem;
+  }
+
+  .banner-container .btn {
+    margin-inline: auto;
+  }
+
+  .heading-text {
+    font-size: 4rem;
+    padding-inline: 2rem;
+  }
+
+  .description {
+    margin-inline: auto;
+  }
+
+  .banner-container div:first-child {
+    width: 100%;
+  }
+
+  .banner-container div:last-child {
+    width: 100%;
+  }
+}
