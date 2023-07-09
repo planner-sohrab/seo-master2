@@ -102,3 +102,41 @@ img[alt="brand-logo"] {
 .grow-list .list li:hover {
   color: #fff;
 }
+
+/* Banner  */
+.banner-container {
+  display: flex;
+  align-items: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.heading-text {
+  font-size: 4vw;
+  color: var(--bg-secondary);
+}
+
+.heading-text span {
+  color: var(--bg-primary);
+}
+
+.description {
+  margin-top: 2rem;
+  display: inline-block;
+  max-width: 380px;
+  color: var(--text-gray);
+}
+.btn {
+  display: inline-block;
+  margin-top: 4rem;
+  width: max-content;
+}
+.banner-container div:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.banner-container div:last-child {
+  width: 55%;
+}
