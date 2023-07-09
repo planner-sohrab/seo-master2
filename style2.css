@@ -180,3 +180,9 @@ img[alt="brand-logo"] {
     width: 100%;
   }
 }
+
+@media (max-width: 610px) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
